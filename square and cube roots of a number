@@ -1,0 +1,21 @@
+import java.util.*;
+class root{
+    public static void main(String[] args){
+    Scanner sc =new Scanner(System.in);
+     int x =sc.nextInt();
+    System.out.println("the root value  is  : "+ x + " "+"is " +squareroot(x));
+    int y =sc.nextInt();
+     System.out.println("the root value  is : "+ y + " " +"is" + cuberoot(y));
+    }
+    static double squareroot(int x){
+        double a;
+        a=Math.sqrt(x);
+        return a;
+    }
+    static double cuberoot(int y){
+        double b;
+        b=Math.cbrt(y);
+        return b;
+    }
+    
+    }
