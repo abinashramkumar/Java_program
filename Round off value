@@ -1,0 +1,14 @@
+import java.util.*;
+class number{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("the number is  ");
+         double  num = sc.nextDouble();
+         System.out.println("the round value is " + Math.round(num));
+         System.out.println("the floor value is " + Math.floor(num));
+         System.out.println("the ceil value is " + Math.ceil(num));
+        
+        
+    }
+    
+}
