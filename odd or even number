@@ -1,0 +1,18 @@
+import java.util.*;
+class number{
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.print("the number is "+" ");
+        int num =sc.nextInt();
+        if(num==0){
+            System.out.println("it is a neutral number");
+        }
+        else if(num % 2 == 0){
+            System.out.println("it is a even number ");
+            
+        }
+        else {
+            System.out.println("it is a odd number");
+        }
+}
+}
