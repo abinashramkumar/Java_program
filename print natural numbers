@@ -1,0 +1,14 @@
+import java.util.*;
+public class naturalnumber{
+    public static void main(String[] args){
+        int i=1;
+        Scanner number=new Scanner(System.in);
+        System.out.print("enter the number:");
+        int a=number.nextInt();
+        
+        while(i<=a){
+            System.out.println(i+"");
+            i++;
+        }
+    }
+}
