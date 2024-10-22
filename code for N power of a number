@@ -1,0 +1,9 @@
+import java.util.*;
+class power{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int base =sc.nextInt();
+        int exp = sc.nextInt();
+        System.out.print("the value is" + Math.pow(base,exp));
+    }
+}
